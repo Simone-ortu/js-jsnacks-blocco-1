@@ -6,7 +6,7 @@ var invitati= ['Pippo', 'Paperino', 'Pluto'];
 
 var verifica = prompt('Inserire il proprio nome');
 
-if (invitati.some = verifica){
+if (invitati.includes(verifica)){
     alert('sei un invitato, puoi pertecipare alla festa');
 }
 else{
