@@ -6,9 +6,18 @@ var invitati= ['Pippo', 'Paperino', 'Pluto'];
 
 var verifica = prompt('Inserire il proprio nome');
 
-if (invitati.includes(verifica)){
-    alert('sei un invitato, puoi pertecipare alla festa');
-}
-else{
-    alert('non sei in lista, non puoi partecipare')
+// if (invitati.includes(verifica)){
+//     alert('sei un invitato, puoi pertecipare alla festa');
+// }
+// else{
+//     alert('non sei in lista, non puoi partecipare')
+// };
+
+for( var i = 0; i < invitati.length; i++){
+ if ( verifica == invitati[i]){
+     alert('sei un invitato, puoi pertecipare alla festa');
+ }
+ else{
+     alert('non sei in lista, non puoi partecipare');
+ };
 };
