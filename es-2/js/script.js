@@ -2,15 +2,15 @@
 // se è dispari inseriscilo nell’array 
 
 
-var dispari=[];
+var dispari = [];
 
 
-for (var i=0; i<6 ;i++){
-   var numeri = prompt('inserisci numero');
-    if (numeri %2 != 0){
+for (var i = 0; i < 6; i++) {
+    var numeri = prompt('inserisci numero');
+    if (numeri % 2 != 0) {
         dispari.push(numeri);
     };
-    
+
 
 };
 console.log(dispari);
