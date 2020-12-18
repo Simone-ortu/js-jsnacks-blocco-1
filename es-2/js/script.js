@@ -7,12 +7,10 @@ var dispari=[];
 
 for (var i=0; i<6 ;i++){
    var numeri = prompt('inserisci numero');
-    if (numeri[i]%2 != 0){
-        dispari.push;
-        console.log('questi sono i dispari' , dispari)
-    }
-    else{
-        console.log(numeri);
-    }
+    if (numeri %2 != 0){
+        dispari.push(numeri);
+    };
+    
 
-}
+};
+console.log(dispari);
